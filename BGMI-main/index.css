@@ -1,0 +1,123 @@
+body{
+	margin:0;
+    font-family: times;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+	background-image: linear-gradient(to top,whitesmoke,gainsboro);
+    text-align: center;
+    overflow: auto;
+     background-image: url('https://wallpapers.com/images/hd/bgmi-parachute-landing-1y3cn7sploqanlop.jpg'); 
+     background-repeat: no-repeat;
+
+    
+}
+img{
+	max-width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+#mainNav.is-sticky {
+    background: white;
+}
+#mainNav.is-sticky a {
+  color:floralwhite;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background-color:lightblue;
+	transition: background 0.4s;
+}
+nav ul li{
+    float: left;
+    width: 24%;
+	height: 8%;
+}
+nav ul li a{
+	transition: color 0.4s;
+	list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+	font-size: 15px;
+    color: black;
+    display: block;
+    padding: 8% 18%;
+}
+nav ul li a:hover , nav ul li.home a{
+	list-style: none;
+    background-color: ;
+    color:purple;
+}
+
+.left-col{
+    width:20%;
+    float:left;
+    padding: 1%;
+    display:flex;
+}
+.sidebar{
+    width:50%;
+    float:left;
+    padding:1%;
+	font-size: 30px;
+    color: black;
+
+}
+
+   #footer{ background-color:black; color: white; text-align: center;
+    padding: 20px;
+height: auto; width: auto; }
+    /* h2{
+        color: brown;
+    } */
+    /* a {
+        position: relative;
+      }
+      
+      a:hover::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      a:hover::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 300px; /* adjust to the size of your image */
+        /* height: 200px; /* adjust to the size of your image */
+        /* background-image: url("https://battlegroundsmobileguru.com");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      } */
+      
+      /* a:hover::after:hover {
+        opacity: 1;
+      }
+      
+      a:hover {
+        text-decoration: none;
+      } */ 
